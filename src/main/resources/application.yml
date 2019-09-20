@@ -1,0 +1,10 @@
+spring:
+  redis:
+    host: 192.168.0.134
+
+rate:
+  limit:
+    enable: true
+    burst-capacity: 6
+    replenish-rate: 2
+#    impl: redis

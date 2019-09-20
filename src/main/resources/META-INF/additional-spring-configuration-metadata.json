@@ -1,0 +1,17 @@
+{
+  "hints": [
+    {
+      "name": "rate.limit.impl",
+      "values": [
+        {
+          "value": "redis",
+          "description": "redis实现."
+        },
+        {
+          "value": "memory",
+          "description": "内存实现."
+        }
+      ]
+    }
+  ]
+}
